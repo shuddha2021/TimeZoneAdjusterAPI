@@ -23,14 +23,14 @@ cd test-dwella-2
 Install the dependencies:
 npm install
 
-Running the Application
+### Running the Application
 To start the server, run the following command:
 
 npm start
 
 The server will start running on http://localhost:3000.
 
-Using the API
+### Using the API
 To get the current UTC time:
 
 curl http://localhost:3000/time
@@ -39,24 +39,24 @@ To get the time adjusted to a specific timezone (e.g., America/New_York):
 
 curl http://localhost:3000/time?timezone=America/New_York
 
-Testing
+### Testing
 To run the automated tests for the API, execute:
 
 npm test
 
-Continuous Integration
+### Continuous Integration
 This project uses GitHub Actions for continuous integration. Upon each push or pull request, the tests are automatically run to ensure code quality and functionality.
 
-Deployment
+### Deployment
 The application can be deployed to cloud platforms like Vercel or Heroku. The main branch is production-ready and can be used for deployments.
 
-License
+### License
 This project is licensed under the ISC License - see the LICENSE file for details.
 
-Author
+### Author
 Shuddha Chowdhury - shuddha2021
 
-Acknowledgments
-Node.js community
-Express.js team
-Moment Timezone contributors
+### Acknowledgements
+- Node.js community
+- Express.js team
+- Moment Timezone contributors
