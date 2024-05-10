@@ -1,0 +1,35 @@
+{
+  "name": "test-dwella-2",
+  "version": "1.0.0",
+  "description": "A Node.js project with Express and Moment Timezone",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/test-dwella-2.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "moment-timezone",
+    "jest",
+    "supertest",
+    "api"
+  ],
+  "author": "Shuddha Chowdhury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/your-username/test-dwella-2/issues"
+  },
+  "homepage": "https://github.com/your-username/test-dwella-2#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "moment-timezone": "^0.5.45"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
